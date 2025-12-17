@@ -5,7 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WeatherLook Privacy Policy</title>
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
     h1, h2 { color: #333; }
     a { color: #0066cc; }
     ul { margin-left: 20px; }
@@ -13,7 +19,7 @@
 </head>
 <body>
   <h1>Privacy Policy for WeatherLook</h1>
-  <p><strong>Effective Date:</strong> December 10, 2025</p>
+  <p><strong>Effective Date:</strong> December 18, 2025</p>
 
   <h2>Introduction</h2>
   <p>WeatherLook (“we”, “our”, or “the App”) respects your privacy. This Privacy Policy explains what information we collect, how it is used, stored, shared, and your rights under privacy laws including GDPR (EU), CCPA (California, USA), and other applicable laws.</p>
@@ -25,22 +31,24 @@
     <li><strong>Weather metadata:</strong> Temperature, weather description, timestamp of upload.</li>
     <li><strong>Optional social handle:</strong> Only stored if entered by the user.</li>
     <li><strong>Public view count:</strong> Tracks how many times an image has been viewed.</li>
+    <li><strong>Push notifications:</strong> Device identifiers may be used to deliver optional notifications. Notifications do not collect personal information.</li>
   </ul>
   <p>No user accounts, email addresses, or personal identifiers are required.</p>
 
   <h2>2. How Data is Stored</h2>
   <ul>
-    <li><strong>Firebase Firestore:</strong> Stores metadata including image URLs, GPS coordinates, location names, timestamps, weather info, view counts, and optional social handles.</li>
+    <li><strong>Firebase Firestore:</strong> Stores metadata including image URLs, GPS coordinates, location names, timestamps, weather info, view counts, optional social handles, and notification tokens.</li>
     <li><strong>Firebase Storage:</strong> Stores full-size images.</li>
-    <li><strong>On-device storage:</strong> Temporary files for image capture, compression, and caching.</li>
+    <li><strong>On-device storage:</strong> Temporary files for image capture, compression, caching, and notifications.</li>
   </ul>
 
   <h2>3. How We Use Data</h2>
   <ul>
     <li>Display uploaded images and weather/location information in the app.</li>
     <li>Maintain the public view count of images.</li>
-    <li>Support app functionality such as browsing and search.</li>
+    <li>Support app functionality such as browsing, search, and notifications.</li>
     <li>Optional social handles are only used for attribution.</li>
+    <li>Send optional push notifications, such as alerts or updates. Users can disable notifications in app settings at any time.</li>
   </ul>
 
   <h2>4. Data Sharing and Public Access</h2>
